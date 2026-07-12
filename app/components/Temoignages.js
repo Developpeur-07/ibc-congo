@@ -2,28 +2,28 @@ import RevealWrapper from './RevealWrapper';
 
 const temoignages = [
   {
-    texte: "« En trois semaines, nos prospects nous prenaient différemment. L'image compte plus qu'on ne le croit. »",
-    initiales: 'AM',
-    nom: 'Ange Mbemba',
-    role: 'Directeur, Mbemba & Associés',
+    texte: "« Nous avions besoin d'améliorer notre présence digitale et de structurer notre communication. L'équipe d'I.B Congo nous a accompagnés avec professionnalisme et méthode. Les conseils étaient concrets et adaptés à notre activité. »",
+    initiales: "JD",
+    nom: "Jem's Délice",
+    role: "Restauration & Traiteur, Brazzaville",
   },
   {
-    texte: '« Les campagnes Meta Ads ont généré trois fois plus de contacts qualifiés. Et le budget est resté maîtrisé. »',
-    initiales: 'SN',
-    nom: 'Sarah Nkounkou',
-    role: 'Fondatrice, Boutique Élégance',
+    texte: "« Grâce à l'accompagnement d'I.B Congo, nous avons pu clarifier notre stratégie de communication et mieux présenter nos services. Leur approche est à la fois stratégique et orientée résultats. »",
+    initiales: "BH",
+    nom: "BLS House",
+    role: "Services, Brazzaville",
   },
   {
-    texte: '« Six mois de sous-traitance, zéro raté. On leur délègue toute notre production visuelle sans avoir à vérifier. »',
-    initiales: 'PK',
-    nom: 'Patrick Koubemba',
-    role: 'CEO, Agence Pixel Congo',
+    texte: "« Nous recherchions un partenaire capable de comprendre nos objectifs. I.B Congo a su répondre à nos attentes avec réactivité, professionnalisme et un véritable sens de l'accompagnement. »",
+    initiales: "OC",
+    nom: "Opportunity Congo",
+    role: "Développement & Opportunités, Congo",
   },
 ];
 
 export default function Temoignages() {
   return (
-    <section id="realisations" className="section-pad">
+    <section id="réalisations" className="section-pad">
       <div className="wrap">
 
         <RevealWrapper>
@@ -45,17 +45,19 @@ export default function Temoignages() {
                 background: '#0C0C1C',
                 border: '1px solid rgba(255,255,255,0.05)',
                 borderRadius: '12px', padding: '24px',
-                height: '100%'
+                height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'
               }}>
-                <div style={{ color: '#F07A20', fontSize: '12px', letterSpacing: '2px', marginBottom: '14px' }}>
-                  ★★★★★
+                <div>
+                  <div style={{ color: '#F07A20', fontSize: '12px', letterSpacing: '2px', marginBottom: '14px' }}>
+                    ★★★★★
+                  </div>
+                  <p style={{
+                    fontSize: '13px', lineHeight: 1.72, color: '#666A88',
+                    marginBottom: '22px', fontStyle: 'italic'
+                  }}>
+                    {texte}
+                  </p>
                 </div>
-                <p style={{
-                  fontSize: '13px', lineHeight: 1.72, color: '#666A88',
-                  marginBottom: '22px', fontStyle: 'italic'
-                }}>
-                  {texte}
-                </p>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <div style={{
                     width: '36px', height: '36px', borderRadius: '50%',
