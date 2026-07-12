@@ -178,6 +178,7 @@ export default function Navbar() {
                 width: "auto",
                 height: "38px",
                 objectFit: "contain",
+                borderRadius: "6px",
               }}
             />
           </div>
