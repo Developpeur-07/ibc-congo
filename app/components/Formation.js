@@ -18,7 +18,7 @@ export default function Formation() {
       <div className="wrap">
         <RevealWrapper>
           <div style={{ marginBottom: "48px" }}>
-            <div className="section-label">Formation</div>
+            <div className="section-label">Mise à disposition des compétences digitales</div>
             <h2
               style={{
                 fontSize: "clamp(24px, 4vw, 42px)",
@@ -63,7 +63,7 @@ export default function Formation() {
                   marginBottom: "18px",
                 }}
               >
-                Auto-guidée · En ligne
+                RAPIDE-FLEXIBLE-SUR DEMANDE
               </span>
               <h3
                 style={{
@@ -75,7 +75,7 @@ export default function Formation() {
                   marginBottom: "14px",
                 }}
               >
-                Formation digitale I.B Congo
+                Renforcez votre équipe avec des talents qualifiés.
               </h3>
               <p
                 style={{
@@ -92,7 +92,26 @@ export default function Formation() {
                 accompagner vos projets digitaux, de façon ponctuelle ou
                 continue. Les compétences disponibles : Community Manager Social
                 Media Manager Graphiste Rédacteur web Monteur vidéo Traffic
-                Manager Assistant virtuel
+                Manager Assistant virtuel.
+                
+              </p>
+              <p
+                style={{
+                  fontSize: "14px",
+                  color: "#666A88",
+                  lineHeight: 1.7,
+                  marginBottom: "28px",
+                  fontWeight: 300,
+                }}
+              >
+                Pourquoi choisir ce service ?
+                <ul style={{ marginTop: "8px", paddingLeft: "20px" }}>
+                  <li>Recrutement rapide</li>
+                  <li>Profils qualifiés et opérationnels</li>
+                  <li>Accompagnement assuré</li>
+                  <li>Missions ponctuelles continues</li>
+                </ul>
+                
               </p>
               <button className="btn-primary" style={{ width: "100%" }}>
                 Demander un profil
