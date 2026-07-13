@@ -51,8 +51,7 @@ export default function Hero() {
             fontSize: '15px', color: '#666A88', lineHeight: 1.75,
             maxWidth: '480px', marginBottom: '40px', fontWeight: 300
           }}>
-            I.B Congo structure l&apos;identité et la présence digitale des PME congolaises.
-            De la charte graphique aux campagnes Meta Ads — on s&apos;occupe de tout.
+           I.B Congo est un cabinet de structuration et de sous-traitance digitale qui accompagne les entreprises dans leur développement. De la stratégie à l’exécution, nous intervenons en communication, création de sites web, publicité digitale, mise à disposition de compétences et sous-traitance en marque blanche pour accélérer votre croissance.
           </p>
 
           {/* CTAs */}

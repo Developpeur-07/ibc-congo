@@ -64,7 +64,7 @@ export default function APropos() {
                 background: 'rgba(62,198,240,0.04)'
               }}>
                 <p style={{ fontSize: '14px', color: '#DDE0F0', lineHeight: 1.7, fontStyle: 'italic' }}>
-                  &ldquo;Structurer. Digitaliser. Faire rayonner vos PME.&rdquo;
+                  &ldquo;Votre partenaire en structuration et developpement digital..&rdquo;
                 </p>
                 <div style={{ fontSize: '12px', color: '#3EC6F0', marginTop: '8px' }}>
                   — Medhy Noble Jonathan Loubath
