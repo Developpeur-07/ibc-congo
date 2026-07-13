@@ -55,14 +55,7 @@ export default function Contact() {
               <p style={{ fontSize: '14px', color: '#666A88', lineHeight: 1.7, marginBottom: '36px', fontWeight: 300 }}>
                 Pas de contrat long terme dès le premier appel. On écoute, on analyse, on vous dit franchement ce qui peut marcher pour votre activité.
               </p>
-              <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
-                <button className="btn-primary" onClick={handleSubmit}>
-                  Demander un devis gratuit
-                </button>
-                <a href="https://wa.me/242068305918" target="_blank" rel="noopener noreferrer" className="btn-outline">
-                  WhatsApp direct →
-                </a>
-              </div>
+              
             </div>
           </RevealWrapper>
         </div>

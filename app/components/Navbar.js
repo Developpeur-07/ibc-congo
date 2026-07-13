@@ -192,7 +192,9 @@ export default function Navbar() {
             ))}
           </div>
 
-          <button className="nav-cta">Demande de devis</button>
+          <a href="#contact" className="nav-cta">
+            Demande de devis
+          </a>
 
           {/* Burger */}
           <button
@@ -217,12 +219,13 @@ export default function Navbar() {
             </a>
           ))}
 
-          <button
+          <a
+            href = "#contact"
             className="nav-mobile-cta"
             onClick={() => setOpen(false)}
           >
             Demande de devis
-          </button>
+          </a>
         </div>
       </nav>
     </>
