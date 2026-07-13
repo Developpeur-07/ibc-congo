@@ -56,12 +56,10 @@ export default function Hero() {
 
           {/* CTAs */}
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-            <button className="btn-primary">
+            <a href ="#contact" className="btn-primary">
               Discutons de votre projet
-            </button>
-            <button className="btn-outline">
-              Voir les prestations
-            </button>
+            </a>
+            
           </div>
         </RevealWrapper>
 
