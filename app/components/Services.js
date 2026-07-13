@@ -115,10 +115,6 @@ export default function Services() {
                   flexDirection: "column",
                   gap: 16,
                   transition: "background .25s",
-                  gridColumn:
-                    i === services.length - 1 && services.length % 3 === 1
-                      ? "span 3"
-                      : "span 1",
                 }}
                 onMouseEnter={(e) =>
                   (e.currentTarget.style.background = "#111130")
@@ -196,14 +192,12 @@ export default function Services() {
           </div>
         </RevealWrapper>
 
-        <style>{`
-          @media (max-width:767px){
-            #services .svc-grid{grid-template-columns:1fr!important;}
-          }
-          @media (min-width:768px) and (max-width:1023px){
-            #services .svc-grid{grid-template-columns:repeat(2,1fr)!important;}
-          }
-        `}</style>
+        <style> 
+          {`
+            @media (max-width: 1023px) {
+              #services .svc-grid { grid-template-columns: 1fr !important; }
+            }`} 
+          </style>
       </div>
     </section>
   );
